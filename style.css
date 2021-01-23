@@ -1,0 +1,21 @@
+#app {
+  font-family: sans-serif;
+}
+
+h1 {
+  color: coral;
+  text-align: center;
+  background-color: #555;
+  display: inline-block;
+  margin: 0;
+  padding: 10px 15px;
+}
+
+p {
+  color: antiquewhite;
+  background-color: #775533;
+  display: block;
+  padding: 10px 15px;
+  margin: 0;
+  margin-top: 10px;
+}
