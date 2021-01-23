@@ -1,8 +1,12 @@
-const app = Vue.createApp({
+Vue.createApp({
   data() {
     return {
       product: "Socks",
-      description: "A pair of warm, fuzzy socks."
+      image: "./assets/vmSocks-blue-onWhite.jpg",
+      altText: "A pair of socks",
+      inStock: false,
+      inventory: 100,
+      onSale: true
     }
   }
 }).mount("#app")
